@@ -1,0 +1,225 @@
+.big-wrapper{
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/banner.jpg");
+}
+
+.navbar-default{
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.big-wrapper .navbar-brand{
+    color: #fff;
+    font-size: 12px;
+}
+
+.big-wrapper .navbar-brand:hover{
+    color: #fff;
+}
+
+.big-wrapper .collapse li{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:763px){
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7;
+        border: 0;
+    }
+
+    .big-wrapper .collapse li{
+        float: left;
+    }
+
+    .big-wrapper{
+        height: 830px;
+    }
+
+    .banner .ad-border button{
+        position: relative;
+        top: 25vh !important;
+        left: 23vw !important;
+    }    
+
+    .banner .ad-border{
+        border-width: 0px 0px !important;
+        border-style: none;
+    }
+}
+
+@media only screen and (max-width:1200px){
+
+    .big-wrapper {
+        height: 800px;
+    }
+
+    .banner .ad-border button{
+        position: relative;
+        top: 30vh !important;
+        left: 33vw !important; 
+    }
+}
+
+@media only screen and (max-width:411px){
+    .banner .ad-border button{
+        position: relative;
+        left: 23vw !important;
+        top: 28vh !important;
+    }
+}
+
+@media only screen and (max-width:410px){
+    .big-wrapper{
+        height: 850px;
+    }
+}
+
+.banner{
+    color: #fff;
+    position: relative;
+    top: 20vh;
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.banner p{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+
+.banner h3{
+    text-align: center;
+}
+
+.banner h6{
+    text-align: center;
+    color: gray;
+}
+
+.banner .ad-border{
+    border-width: 0px 1px;
+    border-color: #fff;
+    border-style: solid;
+}
+
+.banner .change{
+    position: relative;
+    top: 5vh;
+}
+
+.banner .ad-border button{
+    width: 150px;
+    height: 40px;
+    color: green;
+    background-color: transparent;
+    border-radius: 25px 25px;
+    border: 2px solid green;
+    outline: none;
+    position: relative;
+    top: 10vh;
+    left: 8vw;
+    font-size: 10px;
+}
+
+.two-section .img-circle{
+    position: relative;
+    left: 15vw;
+}
+
+.two-section .one{
+    position: relative;
+    top: 20vh;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    color: green;
+    background-color: transparent;
+    border-radius: 25px 25px;
+    border: 2px solid green;
+    outline: none;
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    font-size: 10px;
+}
+
+.two-section .one p{
+    padding-top: 5vh;
+}
+
+@media only screen and (max-width:1200px){
+    .two-section .one .two{
+        padding-bottom: 15vh;
+    }
+
+    .two-section .img-circle{
+        position: relative;
+        left: 35vw;
+    }
+
+    .two-section button{
+        position: relative;
+        left: 35vw;
+    }
+}
+
+@media only screen and (max-width:439px){
+    .two-section .img-circle{
+        position: relative;
+        left: 25vw;
+    }
+
+    .two-section button{
+        position: relative;
+        left: 25vw;
+    }
+}
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    position: relative;
+    top: 50vh;
+    color: #fff;
+}
+
+.footer .form-control{
+    background-color: transparent;
+}
+
+.footer .six{
+    height: 200px;
+}
+
+.footer button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 25px 25px;
+    border: 2px solid #fff;
+    outline: none;
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    font-size: 10px;
+}
+
+.footer .ten{
+    position: relative;
+    top: 15vh;
+}
